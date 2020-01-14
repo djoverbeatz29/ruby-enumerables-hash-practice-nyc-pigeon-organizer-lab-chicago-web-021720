@@ -6,8 +6,8 @@ result = {}
 data.each{ |k1, v1|
   v1.each{ |k2, v2|
     v2.each{ |item|
-      if !result[item][k1]
-        result[item][k1]
+      if !result[item]
+        result[item] = {k1: [k2]
     }
   }
 }
