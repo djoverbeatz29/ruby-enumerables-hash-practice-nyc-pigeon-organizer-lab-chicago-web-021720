@@ -14,6 +14,6 @@ cf = data.map{ |k1, v1|
 for x in cf do
   for y in x do
     for z in y do
-      if result
+      if result[z
   
 end
